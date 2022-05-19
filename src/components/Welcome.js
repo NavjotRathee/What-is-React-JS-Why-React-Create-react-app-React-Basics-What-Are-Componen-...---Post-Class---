@@ -1,9 +1,9 @@
 import React from 'react';
-function Welcome(props){
+function Welcome(name){
     return (
         <>
-        <h1> Hey ! {props.name}</h1>
-        <h2>Welcome to Newton School</h2>
+        <h1> Hey !{name.name}</h1>
+        <h2>Welcome to Newton School.</h2>
         </>
     )
 }
